@@ -1,0 +1,52 @@
+html*#mainNavigation li{
+    margin: 0;
+    padding: 1em 0;
+    zoom: 1;
+    padding: 0;
+    color: #CAAD93;
+}
+#body-div {
+width:1070px;  　     /*整個頁面區塊的寬度*/
+position: absolute;   /*絕對位置*/
+left: 50%;            /*從左邊開始算，右推 50% (一半) 的位置*/
+margin-left: -535px;  /*寬度1070px的一半*/
+margin-top: 15px;     /*從上面開始算，15px的位置*/
+}
+#14 {
+
+    position: absolute;     /*絕對位置*/
+    top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
+    left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/
+    margin-top: -250px;     /*高度的一半*/
+    margin-left: -200px;    /*寬度的一半*/
+ 
+}
+#title{
+    text-align: center; 
+}
+#make {
+width:200px;
+float:right;
+position:fixed;
+right:0px;
+bottom:0px;
+}
+p { 
+    font-size: 12px;　　　　　          /* 設定文字大小 */
+    line-height: 24px;　　　          　/* 設定文字行距 */
+    letter-spacing: 3px;　            　/* 設定文字間距 */
+} 
+b{
+    font-size: 12px;　　　　　          /* 設定文字大小 */
+    line-height: 24px;　　　          　/* 設定文字行距 */
+    letter-spacing: 3px;　            　/* 設定文字間距 */
+}
+
+img{
+    border: ridge;
+    border-width: thick;
+    border-color: chocolate;
+    border-radius: 5%;
+    width: 45%;
+    height: 45%;
+}

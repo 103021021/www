@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>台灣美食記遊-台中-霧峰</title>
+<script>　 　　　 
+function resize()
+{　 　　　　
+ parent.document.getElementById("mainframe").width=document.body.scrollWidth;  
+  }
+document.addEventListener("backbutton", callback, false);
+function initMap() {
+  var myLatLng = {lat:24.055726, lng:120.710124};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: myLatLng,
+	mapTypeId:google.maps.MapTypeId.HYBRID
+  });
+
+}
+</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB541CXN1GxP99TkHbfwvyvTMAT08HdXks&callback=initMap"
+        async defer></script>
+    <style>
+        body{
+            font-family:DFKai-sb;
+        }
+        h1{
+            color: #b41717;
+            font-size: 4em;
+        }
+
+
+		      html, body {
+        height: 50%;
+		width:auto;
+      }
+
+
+      #map {
+        height: 100%;
+      }
+    </style>
+<link rel="stylesheet" href="css/background.css" />
+<link rel="stylesheet" href="css/button.css"/>
+</head>
+
+<body onload="resize();" >
+<div id="map"></div>  
+<center>
+    <h1>龍之軒</h1>
+    <img src="button-image/wufol.jpg"style="width:60%; height:24%;" onclick="location.href='test.html?0'"><br />
+    <h1>老牌羊肉爐</h1>
+    <img src="button-image/Mutton_stove.jpg"style="width:60%; height:24%;" onclick="self.location.href='#';"><br />
+    <h1>一魂拉麵</h1>
+    <img src="button-image/Ramen.jpg"style="width:60%; height:24%;" onclick="self.location.href='#';"><br />
+     <input type ="button" onclick="history.back()" value="回到上一頁">
+</center>
+</body>
+</html>

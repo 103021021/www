@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+var value = document.getElementById(id).value;
+var obj = eval ("(" + txt + ")");
+var judgment = 1;
+document.getElementById("shop_name").innerHTML = obj.rest[judgment].shop_name
+document.getElementById("address").innerHTML = obj.rest[judgment].address
+document.getElementById("tel").innerHTML = obj.rest[judgment].tel
+
+$.ajax({
+
+  url: "http://120.108.111.157/~103021020/final_test/103021020_html5_final.json",
+
+  type: "GET",
+
+  dataType: "json",
+
+  success: function(Jdata) {
+
+    alert("SUCCESS!!!");
+
+  },
+
+   
+
+  error: function() {
+
+    alert("ERROR!!!");
+
+  }
+
+});
+
+</script>
+<body>
+<p>
+店名: <span id="shop_name"></span><br />
+地址: <span id="address"></span><br />
+電話號碼:<span id="tel"></span><br />
+菜單:<img src="pic_mountain.jpg" alt="Mountain View" />
+
+</p>
+</body>
+</html>
+////var txt = '{ "rest" : [' +
+'{ "shop_name":"龍之軒" , "address":"Gates" , "tel":"04545158848" , "pic":"dfsfsdfsdfsd.jpg"} ]}';

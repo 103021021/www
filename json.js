@@ -1,0 +1,1 @@
+callBackdata(JSON.stringify([{"id":"1","shop_name":"\u9f8d\u4e4b\u8ed2","address":"413\u53f0\u4e2d\u5e02\u9727\u5cf0\u5340\u6a39\u4ec1\u8def23\u865f","tel":"0423392857","store":"https://pic.pimg.tw/onebrother/1451715665-2844561634.jpg?v=1451715671","pic":"http://a.share.photo.xuite.net/yalm5311kris/1aee826/16425000/884392190_m.jpg"}]));

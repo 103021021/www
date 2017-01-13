@@ -1,0 +1,16 @@
+html{
+    height: 100%;
+}
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;/*是否重複延伸(設置-否)*/
+	background-position:left top;/*從何處延伸*/
+	background-image: url(bg.jpg);/*背景圖*/
+	background-color: #ccc;/*無背景時顏色*/
+    background-size:cover; /*背景延伸*/
+    margin:0px auto;
+} 
+#center {
+
+    position:absolute; height:800px; top:30%; margin-top:-100px; /* div高度的一半 */
+}
